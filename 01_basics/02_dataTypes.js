@@ -30,8 +30,38 @@ let name = "Sidhant"
 let age = 25
 
 //Datypes:
+// a) Primitive Datatypes
 //number : (Range) 2 to power of 52
 // string : (Recommended to enclose value in "") can use '' to store value
 // bigint 
 // boolean : true/false
 // null : (It's a data type). It's a standalone value.
+// symbol : (will be discussed when we talk about react) To find uniqueness between multiple components we use symbol.
+// Many figma tools make use of symbol type
+
+//undefined : When we declare a variable but have not assigned any value
+
+// b) Object
+
+/*
+So now we may think  is NULL and undefined same?
+-> The answer is no both are different
+
+let test = ""  // This is not an empty variable declaration instead here we have specified the variable as string type
+
+let t1 = NULL;  //Representation of empty value, we are intentionally defined NULL as value instaed of undefined.
+*/
+
+console.log(typeof age)
+console.log(typeof null);
+console.log(typeof undefined);
+
+/*
+Interview Question:
+undefined in itself is special type (like string is a type, number is a type. Similarly we have undefined as a type)
+null is an object.
+
+
+*/
+
+//HW: Check the specification of all the dataTypes discussed in the ECMA Script docs.
