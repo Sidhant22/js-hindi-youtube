@@ -29,7 +29,7 @@ There are two ways to declare a variable:
 As using var there was a long scope problem
 Example: varPass = "12"
 
-Later on if there are multiple developers working on the same project and they created another file and performin some operation (like loop) they changed the variable
+Later on if there are multiple developers working on the same project and they created another file and performed some operation (like loop) they changed the variable
 So in that case it used to update the value of the variable throughout.
 
 So nowdays: Only let is used (which overcomes the long scope problem)
