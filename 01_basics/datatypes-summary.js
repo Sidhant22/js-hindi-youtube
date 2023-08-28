@@ -71,3 +71,14 @@ console.log(typeof bigNum);
 const stringtype = "Hey everyone"
 console.log(typeof stringtype);
 
+// ----------------------------------------------------------------------------------------------------
+//Memory Types: Stack and Heap
+
+/*
+-> All primitive data types have 'stack' as memory and non-primitive types have 'heap' as memory
+-> Whenever we use stack memory any variable that we have declared we get its copy, whereas when we use heap memory then we get the actual object reference (i.e. whatever changes we make will be reflected to the original value/variable)
+ 
+
+
+*/
+
